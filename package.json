@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/loganpowell/link-checker_gd#readme",
   "dependencies": {
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-scripts": "3.0.1"
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-scripts": "3.4.1"
   },
   "devDependencies": {
-    "typescript": "3.3.3"
+    "typescript": "3.8.3"
   },
   "browserslist": [
     ">0.2%",
