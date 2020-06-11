@@ -14,7 +14,8 @@ function App() {
 
     await setError(false)
     const page = await fetch(
-      `https://cors-e.herokuapp.com/https://content.govdelivery.com/accounts/USCENSUS/bulletins/${url}`
+      //  `https://cors-e.herokuapp.com/https://content.govdelivery.com/accounts/USCENSUS/bulletins/${url}`
+      `https://content.govdelivery.com/accounts/USCENSUS/bulletins/${url}`
     ).then(res => res.text())
     await setPage(page)
 
